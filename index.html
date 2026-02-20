@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diamond Dental Care</title>
+    <link rel="shortcut icon" href="/images/favicon/favicon-32x32.png" />
     <script src="https://cdn.tailwindcss.com"></script>
-     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 <body class="bg-gray-50 text-gray-900 pt-16"> <!-- Added pt-16 to account for fixed header -->
     <!-- Header -->
     <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50"> <!-- Made header fixed -->
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold text-blue-600">Diamond Dental Care</div>
+            <!-- Logo + Name -->
+            <div class="flex items-center gap-2">
+                <img src="images/logo/logo.png" alt="Diamond Dental Care" class="h-16 w-16 object-contain">
+                <span class="text-2xl font-bold text-blue-600">
+                    Diamond Dental Care
+                </span>
+            </div>
            <nav class="hidden md:flex space-x-6 items-center">
             <a href="#home" class="flex items-center gap-1 hover:text-blue-600">
                 <i data-lucide="home" class="w-4 h-4"></i> Home
